@@ -1,10 +1,10 @@
 package chess;
 
-public class chessException extends RuntimeException {
+public class ChessException extends RuntimeException {
 
 	private static final long serailVersionUID = 1L;
 	
-	public chessException(String msg){
+	public ChessException(String msg){
 		super(msg);
 	}
 }
